@@ -1,0 +1,101 @@
+/* общее */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* верх */
+header {
+    background-color: rgba(173, 216, 230, 0.8);
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: black;
+}
+
+section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/* фото */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+    border: 4px solid #007bff;
+}
+
+/* табл */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    font-size: 1rem;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 2px solid #007bff;
+    text-align: center;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+}
+
+/* футер */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
